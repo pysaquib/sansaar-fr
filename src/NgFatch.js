@@ -1,3 +1,3 @@
 export const contentApi = axios.create({
-    baseURL: "",
+    baseURL: "http://dev-api.navgurukul.org",
  });
