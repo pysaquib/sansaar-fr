@@ -2,3 +2,7 @@
     margin-top: -25px;
     margin-left: 20px;
 }
+.MuiTableCell-head{
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}

@@ -1,19 +1,20 @@
 import React from "react";
-// import Login from "./views/Login/login";
+import Signup from "./views//Login/signup";
 // import { Grid } from "@material-ui/core";
 // import history from './Router/history';
 // import { Router, Switch, Route} from 'react-router-dom'
 import Class from './components/classes/index'
 function App() {
   return (
+    <>
     <Class/>
-  //     <Router history={history}>
+  {/* //     <Router history={history}>
   //   <div>
   //     <Route exact path="/class" component={Class} />
   //     <Route path="/login" component={Login} />
   //   </div>
-  // </Router>
-    
+  // </Router> */}
+    </>
   );
 }
 
