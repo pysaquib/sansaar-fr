@@ -24,9 +24,21 @@ const useStyles = makeStyles({
     flexDirection: "column",
   },
   button: {
-    backgroundColor: "#D63447",
+    // backgroundColor: "#D63447",
     minWidth: "20vh",
   },
+
+  buttons:{
+    backgroundColor: "#D63447",
+    color: "#ffffff",
+    fontWeight: 700,
+    fontFamily: "Nunito",
+    '&:hover': {
+      backgroundColor: "#D63447",
+   },
+  },
+
+  
   loginText: {
     color: "#ffffff",
     fontWeight: 700,
