@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Axios from 'axios';
-import Header from '../Navigation/Header';
+import Header from '../../components/Navigation/Header';
 import { Container, Button, Typography, Card, CardContent, Grid, colors } from '@material-ui/core';
 // import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
@@ -52,7 +52,8 @@ function Class(props) {
     return (
         <div style={{ backgroundColor: "#e8eaf6" }}>
             <Header />
-            <Container >
+        
+                     <Container >
                 <Typography variant="h4" className={classes.title}>Classes</Typography>
                 {/* add classes */}
                 <Button variant="contained" color="primary" onClick={handleClickOpen} className={classes.addbtn}>Add Class</Button>
@@ -113,8 +114,9 @@ function Class(props) {
                                 margin="normal"
                                 required
                                 fullWidth
-                                label="Start Date"
+                             
                                 name="start_time"
+                                type="date"
                                 autoComplete="start_time"
                                 autoFocus
                             // defaultValue={useDeatil.citizen}
@@ -127,7 +129,8 @@ function Class(props) {
                                 required
                                 fullWidth
                                
-                                label="End Date"
+                           
+                                type="date"
                                 name="end_time"
                                 autoComplete="end_time"
                                 autoFocus
